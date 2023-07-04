@@ -5,7 +5,7 @@ const app = express();
 const PORT = 8002;
 app.use(express.json());
 app.get("/",(req,res)=>{
-    res.send("Welcome to my calculator");
+    res.send("Welcome to my calc");
 })
 app.post("/add",(req,res)=>{
     let result = addition(req.body.a,req.body.b);
