@@ -3,7 +3,7 @@ const fetchbiodata=(roll_no)=>{
         setTimeout(()=>{
             const Biodata ={
                 name1:"Bharat bhai",
-                name : "Tushar vats",
+              
                 
                 age : 28
             }
