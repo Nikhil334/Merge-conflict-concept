@@ -2,7 +2,7 @@ const fetchbiodata=(roll_no)=>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             const Biodata ={
-                name1:"Bharat bhai"
+                name1:"Bharat bhai",
                 name : "Tushar vats",
                 age : 28
             }
